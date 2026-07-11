@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+models/
+*.gguf
+test_harness/output/results.json
+test_harness/mock_env.sh

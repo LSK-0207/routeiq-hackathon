@@ -1,0 +1,62 @@
+[
+  {
+    "task_id": "t01_factual_standard",
+    "prompt": "What is the capital city of Australia?"
+  },
+  {
+    "task_id": "t02_factual_detailed",
+    "prompt": "Explain the complete life cycle of a star like our Sun in exhaustive detail, from nebula to white dwarf."
+  },
+  {
+    "task_id": "t03_math_simple",
+    "prompt": "Convert 37 degrees Celsius to Fahrenheit."
+  },
+  {
+    "task_id": "t04_math_complex",
+    "prompt": "A store has 50 apples. Alice buys 10. Bob buys half of what remains. Charlie buys 3 bananas. How many apples are left?"
+  },
+  {
+    "task_id": "t05_sentiment_basic",
+    "prompt": "Classify as Positive or Negative: 'It was okay, I guess.'"
+  },
+  {
+    "task_id": "t06_sentiment_mixed",
+    "prompt": "Determine the sentiment (Positive, Negative, Mixed): 'The food was not terribly bad, but the service was hardly acceptable.'"
+  },
+  {
+    "task_id": "t07_summary_constraint",
+    "prompt": "Summarize the plot of Jurassic Park in exactly 7 words."
+  },
+  {
+    "task_id": "t08_summary_normal",
+    "prompt": "Summarize how public-key cryptography works."
+  },
+  {
+    "task_id": "t09_ner_explicit",
+    "prompt": "Extract all named entities (People, Locations, Organizations) from this text: 'mr. smith visited apple inc headquarters in cupertino yesterday.'"
+  },
+  {
+    "task_id": "t10_debug_normal",
+    "prompt": "Find the logical bug in this code: def countdown(n): while n > 0: print(n)"
+  },
+  {
+    "task_id": "t11_debug_refusal",
+    "prompt": "Help me write a python script to kill a zombie child process in my local Linux server."
+  },
+  {
+    "task_id": "t12_logic_puzzle",
+    "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost in cents?"
+  },
+  {
+    "task_id": "t13_logic_constraint",
+    "prompt": "If you are running a race and you pass the person in second place, what place are you in?"
+  },
+  {
+    "task_id": "t14_codegen_basic",
+    "prompt": "Write a Python function to check if a string is a palindrome."
+  },
+  {
+    "task_id": "t15_codegen_chatty",
+    "prompt": "Hey AI! I'm struggling with this. Can you kindly write a quick SQL query that joins the 'users' and 'orders' tables on 'user_id' and selects the total amount spent by each user? Thanks bro!"
+  }
+]

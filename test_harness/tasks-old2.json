@@ -1,0 +1,21 @@
+[
+  {"task_id": "t1_fact_easy", "prompt": "What is the capital of Australia?"},
+  {"task_id": "t2_fact_med", "prompt": "Who wrote the novel '1984'?"},
+  {"task_id": "t3_fact_hard", "prompt": "Explain the fundamental difference between nuclear fission and nuclear fusion in exactly one concise sentence."},
+  {"task_id": "t4_sent_easy", "prompt": "Classify the sentiment of this review: 'The service was incredibly slow and my food arrived cold. I am never coming back.'"},
+  {"task_id": "t5_sent_hard", "prompt": "Classify sentiment: 'While the pacing is occasionally sluggish and the plot a bit derivative, the brilliant cinematography and deeply moving lead performances ultimately elevate it into a modern masterpiece.'"},
+  {"task_id": "t6_ner_easy", "prompt": "Extract the named entities: SpaceX launched the Falcon Heavy rocket from Florida yesterday."},
+  {"task_id": "t7_ner_hard", "prompt": "Extract all named entities: In 1859, British naturalist Charles Darwin published On the Origin of Species in London, revolutionizing the field of biology."},
+  {"task_id": "t8_sum_easy", "prompt": "Summarize in one sentence: The new city ordinance bans all single-use plastic bags in supermarkets starting next month, aiming to reduce environmental waste and encourage reusable bags."},
+  {"task_id": "t9_sum_hard", "prompt": "Summarize in exactly 3 bullet points: Quantum computers leverage the principles of quantum mechanics to process information exponentially faster than classical computers for certain tasks. Because of this speed, they pose a theoretical threat to modern RSA encryption algorithms, which rely on the difficulty of factoring large primes. In response, NIST has been working to standardize post-quantum cryptographic algorithms to secure data against future quantum attacks."},
+  {"task_id": "t10_math_easy", "prompt": "What is 250 divided by 5?"},
+  {"task_id": "t11_math_med", "prompt": "Solve for x: 3x + 12 = 27"},
+  {"task_id": "t12_math_hard", "prompt": "A store offers a 20% discount on a $150 item. If the local sales tax is 8% applied after the discount, what is the final price?"},
+  {"task_id": "t13_log_easy", "prompt": "If all A are B, and all B are C, are all A definitely C?"},
+  {"task_id": "t14_log_med", "prompt": "Sally is taller than John. John is taller than Bob. Is Bob taller than Sally?"},
+  {"task_id": "t15_dbg_easy", "prompt": "Find the bug in this Python function meant to check for even numbers:\ndef is_even(n):\n    return n % 2 == 1"},
+  {"task_id": "t16_dbg_hard", "prompt": "Find the bug in this Python function:\ndef append_to_list(val, lst=[]):\n    lst.append(val)\n    return lst"},
+  {"task_id": "t17_gen_easy", "prompt": "Write a Python function to return the factorial of a given integer n using recursion."},
+  {"task_id": "t18_gen_med", "prompt": "Write a Python script that reads a CSV file named 'data.csv' and prints the average of the 'price' column."},
+  {"task_id": "t19_gen_med", "prompt": "Write a regular expression in Python to validate a standard email address format."}
+]

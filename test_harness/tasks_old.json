@@ -1,0 +1,10 @@
+[
+  {"task_id": "t1", "prompt": "What is photosynthesis?"},
+  {"task_id": "t2", "prompt": "What is 15% of 240?"},
+  {"task_id": "t3", "prompt": "Classify the sentiment: 'This product completely exceeded my expectations!'"},
+  {"task_id": "t4", "prompt": "Summarize this in one sentence: The quarterly report shows revenue grew 12% while costs remained flat, driven primarily by strong performance in the enterprise segment."},
+  {"task_id": "t5", "prompt": "Extract all named entities from: 'Tim Cook announced Apple's new headquarters in Cupertino on Monday.'"},
+  {"task_id": "t6", "prompt": "Find the bug in this Python function:\ndef add(a, b):\n    return a - b"},
+  {"task_id": "t7", "prompt": "If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies?"},
+  {"task_id": "t8", "prompt": "Write a Python function that checks if a string is a palindrome."}
+]
